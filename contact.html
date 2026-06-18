@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/WhatsApp Image 2026-06-18 at 15.46.58.jpeg">
+    <title>Contact & Reservations</title>
+</head>
+    
+<body>
+
+    <header>
+        <h1>Contact & Reservations</h1>
+        <p>Get in touch with us or reserve a table for your next visit.</p>
+        <hr>
+    </header>
+
+    <main>
+
+        <!-- Contact Details -->
+        <section>
+            <h2>Contact Details</h2>
+            <p><strong>Phone:</strong> +94 11 234 5678 / +94 55 785 1425</p>
+            <p><strong>Email:</strong> info@cafeevans.com</p>
+        </section>
+
+        <hr>
+
+        <!-- Address -->
+        <section>
+            <h2>Address</h2>
+            <address>
+                Cafe Evans<br>
+                123 Main Street,<br>
+                Colombo 01,<br>
+                Sri Lanka
+            </address>
+        </section>
+
+        <hr>
+
+        <!-- Opening Hours -->
+        <section>
+            <h2>Opening Hours</h2>
+
+            <table border="1">
+                <caption>Weekly Schedule</caption>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>8:00 AM - 10:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>9:00 AM - 11:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>9:00 AM - 9:00 PM</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Reservation Form -->
+        <section>
+            <h2>Reservation Form</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Customer Information</legend>
+
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Reservation Details</legend>
+
+                    <label for="date">Reservation Date:</label><br>
+                    <input type="date" id="date" name="date" required><br><br>
+
+                    <label for="time">Reservation Time:</label><br>
+                    <input type="time" id="time" name="time" required><br><br>
+
+                    <label for="guests">Number of Guests:</label><br>
+                    <input type="number" id="guests" name="guests" min="1" max="20" required><br><br>
+
+                    <label for="requests">Special Requests:</label><br>
+                    <textarea id="requests" name="requests" rows="4" cols="40"></textarea>
+                </fieldset>
+
+                <br>
+
+                <input type="submit" value="Reserve Table">
+                <input type="reset" value="Clear Form">
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Cafe Delight. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+    
