@@ -1,116 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>page/contact-&-reservations</title>
 </head>
+
 <body>
     <header>
-        <h1>Contact & Reservations</h1>
-        <p>Get in touch with us or reserve a table for your next visit.</p>
-        <hr>
+        <figure align="center">
+            <img width="150" height="100" src="imges\Evans logo.jpeg" alt="Cafe Evans Logo">
+            <h1>Cafe Evans</h1>
+            <p>Fresh Food • Great Coffee • Cozy Atmosphere</p>
+        </figure>
+        <!--Left side of the Navigation bar-->
+        <figure align="left">
+            <nav>
+                <a href="home.html">Home</a> |
+                <a href="menu-&-pricing.html">Menu & Pricing</a> |
+                <a href="dietary.html">Diatery</a> |
+                <a href="contact.html">Contact</a> |
+            </nav>
+        </figure>
+        <!--Right side of the Navigation bar-->
+        <figure align="right">
+            <nav>
+                <a href="#about">About</a> |
+                <a href="#menu">Menu</a> |
+                <a href="#customer-reviews">Customer Reviews</a> |
+                <a href="#allergy">Allergy Info</a> |
+                <a href="#contact_info">Contact</a>
+            </nav>
+        </figure>
     </header>
+    <hr>
 
     <!-- Contact Details -->
-        <section>
-            <h2>Contact Details</h2>
-            <p><strong>Phone:</strong> +94 11 234 5678 / +94 55 785 1425</p>
-            <p><strong>Email:</strong> info@cafeevans.com</p>
-        </section>
-
-        <hr>
-
-     <!-- Address -->
-        <section>
-            <h2>Address</h2>
-            <address>
-                Cafe Evans<br>
-                123 Main Street,<br>
-                Colombo 01,<br>
-                Sri Lanka
-            </address>
-        </section>
-
-        <hr>
-
-        <!-- Opening Hours -->
-        <section>
-            <h2>Opening Hours</h2>
-
-            <table border="1">
-                <caption>Weekly Schedule</caption>
-                <tr>
-                    <th>Day</th>
-                    <th>Hours</th>
-                </tr>
-                <tr>
-                    <td>Monday - Friday</td>
-                    <td>8:00 AM - 10:00 PM</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>9:00 AM - 11:00 PM</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>9:00 AM - 9:00 PM</td>
-                </tr>
-            </table>
-        </section>
-
-        <hr>
-
-        <!-- Reservation Form -->
-        <section>
-            <h2>Reservation Form</h2>
-
-            <form action="#" method="post">
-
-                <fieldset>
-                    <legend>Customer Information</legend>
-
-                    <label for="name">Full Name:</label><br>
-                    <input type="text" id="name" name="name" required><br><br>
-
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br><br>
-
-                    <label for="phone">Phone Number:</label><br>
-                    <input type="tel" id="phone" name="phone" required><br><br>
-                </fieldset>
-
-                <br>
-
-                <fieldset>
-                    <legend>Reservation Details</legend>
-
-                    <label for="date">Reservation Date:</label><br>
-                    <input type="date" id="date" name="date" required><br><br>
-
-                    <label for="time">Reservation Time:</label><br>
-                    <input type="time" id="time" name="time" required><br><br>
-
-                    <label for="guests">Number of Guests:</label><br>
-                    <input type="number" id="guests" name="guests" min="1" max="20" required><br><br>
-
-                    <label for="requests">Special Requests:</label><br>
-                    <textarea id="requests" name="requests" rows="4" cols="40"></textarea>
-                </fieldset>
-
-                <br>
-
-                <input type="submit" value="Reserve Table">
-                <input type="reset" value="Clear Form">
-
-            </form>
-        </section>
+    <section>
+        <h2>Contact Details</h2>
+        <p><strong>Phone:</strong> +94 11 234 5678 / +94 55 785 1425</p>
+        <p><strong>Email:</strong> info@cafeevans.com</p>
+    </section>
 
     <hr>
 
-    <footer>
-        <p>&copy; 2026 Cafe Delight. All Rights Reserved.</p>
-    </footer>
+    <!-- Address -->
+    <section>
+        <h2>Address</h2>
+        <address>
+            Cafe Evans<br>
+            123 Main Street,<br>
+            Colombo 01,<br>
+            Sri Lanka
+        </address>
+    </section>
+
+    <hr>
+
+    <!-- Opening Hours -->
+    <section>
+        <h2>Opening Hours</h2>
+
+        <table border="1">
+            <caption>Weekly Schedule</caption>
+            <tr>
+                <th>Day</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>8:00 AM - 10:00 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>9:00 AM - 11:00 PM</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>9:00 AM - 9:00 PM</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Reservation Form -->
+    <section>
+        <h2>Reservation Form</h2>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Reservation Details</legend>
+
+                <label for="date">Reservation Date:</label><br>
+                <input type="date" id="date" name="date" required><br><br>
+
+                <label for="time">Reservation Time:</label><br>
+                <input type="time" id="time" name="time" required><br><br>
+
+                <label for="guests">Number of Guests:</label><br>
+                <input type="number" id="guests" name="guests" min="1" max="20" required><br><br>
+
+                <label for="requests">Special Requests:</label><br>
+                <textarea id="requests" name="requests" rows="4" cols="40"></textarea>
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Reserve Table">
+            <input type="reset" value="Clear Form">
+
+        </form>
+    </section>
+
+    <hr>
+
+    <!--Footer section-->
+    <section id="contact_info">
+        <footer>
+
+
+            <h3 align="center">Evans Cafe & Restaurant</h3>
+
+            <p align="center">
+                Email: info@evanscaf.com |
+                Phone: +94 71 234 5678 |
+                Address: Kalutara, Sri Lanka
+            </p>
+
+            <p align="center">
+                Open Daily: 10.00 AM - 10.00 PM
+            </p>
+
+            <p align="center">
+                &copy; 2026 Evans Cafe & Restaurant. All Rights Reserved.
+            </p>
+
+            <hr>
+        </footer>
+    </section>
 
 </body>
+
 </html>
